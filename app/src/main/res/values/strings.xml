@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Brojac na proizvodi</string>
     <string name="pobaraj">POBARAJ PROIZVOD</string>
+    <string name="podredi">Podredi spored</string>
     <string name="kafeIme">KAFE</string>
     <string name="sladoledIme">SLADOLED</string>
     <string name="jabolkoIme">JABOLKO</string>

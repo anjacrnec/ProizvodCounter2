@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="podreduvanje">
+        <item>Nema podreduvanje</item>
+        <item>Ime</item>
+        <item>Popularnost</item>
+
+    </string-array>
+</resources>
