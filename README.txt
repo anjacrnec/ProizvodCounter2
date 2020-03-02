@@ -1,3 +1,3 @@
 domashno pmp
 
-ikon credit: https://www.flaticon.com/authors/freepik
+ikoni credit: https://www.flaticon.com/authors/freepik
