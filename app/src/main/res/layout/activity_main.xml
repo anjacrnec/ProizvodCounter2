@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/bgProizvod"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        android:tint="#000000"
+                        app:srcCompat="@drawable/jabolko" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/jabolkoIme"
+                        android:textColor="@color/bgProizvod" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="2"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/bgProizvod"
+                        app:srcCompat="@drawable/kafe" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:textColor="@color/bgProizvod"
+                        android:text="@string/kafeIme" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/bgProizvod"
+                        app:srcCompat="@drawable/sladoled" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:textColor="@color/bgProizvod"
+                        android:text="@string/sladoledIme" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="100dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="2"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/bgProizvod"
+                        app:srcCompat="@drawable/bananas"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:gravity="center"
+                        android:textColor="@color/bgProizvod"
+                        android:background="#000000"
+                        android:text="@string/bananaIme"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="2"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/bgProizvod"
+                        app:srcCompat="@drawable/leb" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:gravity="center"
+                        android:textColor="@color/bgProizvod"
+                        android:background="#000000"
+                        android:text="@string/lebIme"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="2"
+                        android:backgroundTint="@color/bgProizvod"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/vino" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="3dp"
+                        android:gravity="center"
+                        android:textColor="@color/bgProizvod"
+                        android:background="#000000"
+                        android:text="@string/vinoIme"/>
+                </LinearLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
