@@ -1,3 +1,3 @@
-domashno pmp - brojac na proizvodi (interfejs samo)
+domashno pmp
 
-ikoni credit: https://www.flaticon.com/authors/freepik
+ikon credit: https://www.flaticon.com/authors/freepik
